@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "name": "jwt.config",
+      "type": "com.crash.property.JWTConfiguration",
+      "sourceType": "com.crash.property.JWTConfiguration"
+    },
+    {
+      "name": "jwt.config.header",
+      "type": "com.crash.property.JWTConfiguration$Header",
+      "sourceType": "com.crash.property.JWTConfiguration",
+      "sourceMethod": "public com.crash.property.JWTConfiguration.Header getHeader() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.config.expiration",
+      "type": "java.lang.Integer",
+      "sourceType": "com.crash.property.JWTConfiguration"
+    },
+    {
+      "name": "jwt.config.header.name",
+      "type": "java.lang.String",
+      "sourceType": "com.crash.property.JWTConfiguration$Header"
+    },
+    {
+      "name": "jwt.config.header.prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.crash.property.JWTConfiguration$Header"
+    },
+    {
+      "name": "jwt.config.login-url",
+      "type": "java.lang.String",
+      "sourceType": "com.crash.property.JWTConfiguration"
+    },
+    {
+      "name": "jwt.config.private-key",
+      "type": "java.lang.String",
+      "sourceType": "com.crash.property.JWTConfiguration"
+    },
+    {
+      "name": "jwt.config.type",
+      "type": "java.lang.String",
+      "sourceType": "com.crash.property.JWTConfiguration"
+    }
+  ],
+  "hints": []
+}
